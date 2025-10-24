@@ -122,8 +122,8 @@
 
 .recipes__title {
   max-width: 580px;
-  padding-top: 100px;
-  padding-left: 80px;
+  margin-top: 100px;
+  margin-left: 80px;
   font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -184,7 +184,7 @@ background-image: url("/images/background_reservation.svg");
     align-content: center;
 }
 
-.form{
+.reservation__form{
   max-width: 385px;
   padding-top: 80px;
   padding-bottom: 120px;
@@ -214,11 +214,11 @@ background-image: url("/images/background_reservation.svg");
    color:  #ffffff;
 }
 
-.form__button--submit:enabled {
+.form__button-submit:enabled {
  opacity: 1;
 }
 
-.form__button--submit:hover:enabled {
+.form__button-submit:hover:enabled {
   opacity: 0.7;
 }
 
