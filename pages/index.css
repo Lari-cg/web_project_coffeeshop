@@ -228,8 +228,8 @@ background-image: url("/images/background_reservation.svg");
 }
 
 .reservation__title {
-  margin-top: 100px;
-  margin-bottom: 80px;
+  margin: 0 auto 80px; 
+padding-top: 100px;
   text-align: center;
   font-family: "Inter", "Arial", sans-serif;
  font-style: normal;
