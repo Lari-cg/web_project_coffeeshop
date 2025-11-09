@@ -1,0 +1,9 @@
+.placeholder {
+  height: 20px;
+  padding-top: 15px;
+}
+
+.terminos {
+  display: flex;
+  flex-direction: row-reverse;
+}
