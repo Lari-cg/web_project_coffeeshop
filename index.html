@@ -24,7 +24,7 @@
         <img src="./images/logo_coffeeshop_dark.svg" alt="Logotipo de coffeeshop" class="nav__logo" />
         <ul class="nav__links">
           <li>
-            <a class="nav__link" href="#recipes">Recetas.</a>
+            <a class="nav__link" href="#recipes">Recetas</a>
           </li>
           <li>
             <a class="nav__link" href="#reservation">Reservar una mesa</a>
@@ -96,24 +96,22 @@
           Reservar una mesa
         </h2>
 
-        <form class="form reservation__form">
-          <label class="reservation__form-label" for="nombre">Nombre *
-            <input class="reservation__form-input" type="text" minlength="3" maxlength="20" required
-              placeholder="Nombre" id="nombre" /> </label>
+        <form class="reservation__form">
+          <label class="form__label" for="nombre">Nombre *
+            <input class="form__input" type="text" minlength="3" maxlength="20" required placeholder="Nombre"
+              id="nombre" /> </label>
 
-          <label class="reservation__form-label" for="número">Número de comensales *
-            <input class="reservation__form-input" type="number" min="1" max="8" required placeholder="1-8"
-              id="número" /></label>
-          <label class="reservation__form-label" for="fechahora">Fecha y hora *
-            <input class="reservation__form-input" type="datetime-local" id="fechahora" /></label>
-          <label class="reservation__form-label" for="correo">Tu correo electrónico *
-            <input class="reservation__form-input" type="email" required placeholder="email@email"
-              id="correo" /></label>
-          <button type="submit" class="reservation__form-button reservation__form-button-submit">
+          <label class="form__label" for="número">Número de comensales *
+            <input class="form__input" type="number" min="1" max="8" required placeholder="1-8" id="número" /></label>
+          <label class="form__label" for="fechahora">Fecha y hora *
+            <input class="form__input" type="datetime-local" id="fechahora" /></label>
+          <label class="form__label" for="correo">Tu correo electrónico *
+            <input class="form__input" type="email" required placeholder="email@email" id="correo" /></label>
+          <button type="submit" class="form__button form__button-submit">
             Reservar una mesa
           </button>
-          <label for="términos" class="reservation__form-label reservation__form-label_type_checkbox"><input
-              type="checkbox" id="términos" class="reservation__form-checkbox-input" />Acepto los términos de
+          <label for="términos" class="form__label form__label_type_checkbox"><input type="checkbox" id="términos"
+              class="form__checkbox-input" />Acepto los términos de
             uso</label>
         </form>
       </section>
